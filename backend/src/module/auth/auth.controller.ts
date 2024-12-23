@@ -12,8 +12,8 @@ class AuthController{
                 message:"User has been created successfully",
                 status:"REGISTER_SUCCESS"
             })
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
 
     }
@@ -21,48 +21,48 @@ class AuthController{
     activateToken = () =>{
         try{
 
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
     }
 
     resendToken = () =>{
         try{
 
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
     }
 
     login = () =>{
         try{
 
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
     }
 
     forgetPassword = () =>{
         try{
 
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
     }
 
     resetPassword = () =>{
         try{
 
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
     }
 
     logout = () => {
         try{
 
-        }catch(exception){
-            throw exception;
+        }catch(exception:any){
+            console.log(exception);
         }
     }
 
